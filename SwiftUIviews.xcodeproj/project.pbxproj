@@ -14,6 +14,9 @@
 		3E4CCE8D27E5DF46006DD013 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CCE8C27E5DF46006DD013 /* Expense.swift */; };
 		3E4CCE9027E5E050006DD013 /* SPSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 3E4CCE8F27E5E050006DD013 /* SPSafeSymbols */; };
 		3E4CCE9227E5E198006DD013 /* ExpenseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CCE9127E5E198006DD013 /* ExpenseTracker.swift */; };
+		3E882869280C66B400CD4745 /* HeroAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E882868280C66B400CD4745 /* HeroAnimationView.swift */; };
+		3E88286C280C69F700CD4745 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88286B280C69F700CD4745 /* Today.swift */; };
+		3E88286E280C6F6000CD4745 /* CustomCornerns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88286D280C6F6000CD4745 /* CustomCornerns.swift */; };
 		3EF2F53F27E5EB3E00386EED /* SpeedMetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2F53E27E5EB3E00386EED /* SpeedMetter.swift */; };
 		3EF2F54127E5F3FF00386EED /* IndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2F54027E5F3FF00386EED /* IndicatorShape.swift */; };
 		3EF2F54327E6007F00386EED /* AnimatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2F54227E6007F00386EED /* AnimatedText.swift */; };
@@ -39,6 +42,9 @@
 		3E4CCE8127E5DD53006DD013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E4CCE8C27E5DF46006DD013 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		3E4CCE9127E5E198006DD013 /* ExpenseTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTracker.swift; sourceTree = "<group>"; };
+		3E882868280C66B400CD4745 /* HeroAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroAnimationView.swift; sourceTree = "<group>"; };
+		3E88286B280C69F700CD4745 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		3E88286D280C6F6000CD4745 /* CustomCornerns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerns.swift; sourceTree = "<group>"; };
 		3EF2F53E27E5EB3E00386EED /* SpeedMetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMetter.swift; sourceTree = "<group>"; };
 		3EF2F54027E5F3FF00386EED /* IndicatorShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorShape.swift; sourceTree = "<group>"; };
 		3EF2F54227E6007F00386EED /* AnimatedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedText.swift; sourceTree = "<group>"; };
@@ -69,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E3747A32802A51500431495 /* HeroAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				3E88286A280C68B000CD4745 /* Model */,
+				3E882868280C66B400CD4745 /* HeroAnimationView.swift */,
+				3E88286D280C6F6000CD4745 /* CustomCornerns.swift */,
+			);
+			path = HeroAnimationView;
+			sourceTree = "<group>";
+		};
 		3E4CCE6E27E5DD51006DD013 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +138,14 @@
 			isa = PBXGroup;
 			children = (
 				3E4CCE8C27E5DF46006DD013 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E88286A280C68B000CD4745 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E88286B280C69F700CD4745 /* Today.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +226,7 @@
 		3EF2F56D27E61A8F00386EED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3E3747A32802A51500431495 /* HeroAnimationView */,
 				3EF2F56A27E6186100386EED /* SleepTime */,
 				3EF2F56827E60F3200386EED /* Marvel */,
 				3EF2F54527E603D700386EED /* ExpenseTracker */,
@@ -296,7 +321,10 @@
 				3EF2F56327E60F2700386EED /* CharacterRowView.swift in Sources */,
 				3EF2F55F27E60F2700386EED /* MarvelHeroes.swift in Sources */,
 				3E4CCE7D27E5DD51006DD013 /* ContentView.swift in Sources */,
+				3E882869280C66B400CD4745 /* HeroAnimationView.swift in Sources */,
 				3EF2F56627E60F2700386EED /* Character.swift in Sources */,
+				3E88286C280C69F700CD4745 /* Today.swift in Sources */,
+				3E88286E280C6F6000CD4745 /* CustomCornerns.swift in Sources */,
 				3EF2F56227E60F2700386EED /* CharacterView.swift in Sources */,
 				3EF2F56127E60F2700386EED /* ComicsView.swift in Sources */,
 				3E4CCE9227E5E198006DD013 /* ExpenseTracker.swift in Sources */,
